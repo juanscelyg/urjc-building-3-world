@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="ground_plane">
+    <static>true</static>
+    <link name="ground_plane_link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://urjc_building_3_1st/meshes/urjc_building_3_1st.stl</uri>
+          </mesh>
+        </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>0.7000000</mu>
+                <mu2>0.7000000</mu2>
+                <fdir1>0.000000 0.000000 1.000000</fdir1>
+                <slip1>0.350000</slip1>
+                <slip2>0.350000</slip2>
+              </ode>
+            </friction>
+          </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://urjc_building_3_1st/meshes/urjc_building_3_1st.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

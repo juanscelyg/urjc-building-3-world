@@ -1,0 +1,2 @@
+prepend-non-duplicate;GAZEBO_MODEL_PATH;share/urjc_building_3_world/models
+prepend-non-duplicate;GAZEBO_MODEL_PATH;share/urjc_building_3_world/worlds

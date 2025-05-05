@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>urjc_building_3_world</name>
+  <version>1.0.0</version>
+  <description>
+    urjc_building_3_world for Gazebo simulations.
+  </description>
+  <license>Apache 2.0</license>
+  <author email="juanscelyg@gmail.com">Juan S. Cely</author>
+  <maintainer email="juanscelyg@gmail.com">Juan S. Cely</maintainer>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>ros_gz</exec_depend>
+  <exec_depend>gz_sim_vendor</exec_depend>
+  <exec_depend>gz_plugin_vendor</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+    <gazebo_ros gazebo_media_path="${prefix}/worlds"/>
+  </export>
+</package>
