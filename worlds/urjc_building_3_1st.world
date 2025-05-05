@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <sdf version="1.6">
-    <world name='urjc_building_3_2nd_world'>
+    <world name='urjc_building_3_1st_world'>
 
         <!-- Physis Engine Configuration -->
         <physics name="5ms" type="ignored">
-            <max_step_size>0.005</max_step_size>
+            <max_step_size>0.01</max_step_size>
             <real_time_factor>1.0</real_time_factor>
         </physics>
 
