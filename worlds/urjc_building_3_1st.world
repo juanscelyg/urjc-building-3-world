@@ -83,7 +83,7 @@
         </include>
 
         <include>
-            <uri>model://simple_ground_plane</uri>
+            <uri>model://urjc_building_3_1st_ground_plane</uri>
         </include>
     </world>
 </sdf>
