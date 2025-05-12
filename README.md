@@ -41,7 +41,18 @@ colcon build
 source install/setup.sh
 ros2 launch urjc_building_3_world urjc_building_3_1st.launch.py
 ```
+# Lights and Shadow configuration
 
+For to obtain a better performance the shadows were disabled. If you want to enable them, you can do it in the file `urjc_building_3_1st.world`, modifying the line:
+
+```xml
+<cast_shadows>0</cast_shadows>
+```
+to
+
+```xml
+<cast_shadows>1</cast_shadows>
+```
 
 <!-- # Building
 Include this as a .rosinstall dependency in your SampleApplication simulation workspace. `colcon build` will build this repository.
